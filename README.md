@@ -1,8 +1,6 @@
 # flutter_demo2
+Learning Flutter by doing the "getting started" demos of the flutter.io website.
 
-A new Flutter project.
-
-## Getting Started
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+## Infinitely scrollable list of word-pairs
+Part 1 creates the basic scrollable list of word-pairs [ https://flutter.io/docs/get-started/codelab ]
+Part 2 extends the list with a route and icons [ https://codelabs.developers.google.com/codelabs/first-flutter-app-pt2/#3 ]
