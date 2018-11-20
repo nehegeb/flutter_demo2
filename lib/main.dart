@@ -8,6 +8,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo2',
+      theme: new ThemeData (
+        primaryColor: Colors.pink[900],
+      ),
       home: RandomWords(),
     );
   }
@@ -73,7 +76,7 @@ class RandomWordsState extends State<RandomWords> {
 
       trailing: new Icon(
         alreadySaved ? Icons.favorite : Icons.favorite_border,
-        color: alreadySaved ? Colors.red : null,
+        color: alreadySaved ? Colors.pink[800] : null,
       ),
 
       onTap: () {
